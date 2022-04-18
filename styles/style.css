@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: #d90101;   
+     border-radius: 8px;
+   border: 4px solid #000000;
+}
+
+.cabeçalho{
+   background-color: #1a1a1a;
+   width: 84em; 
+   height: 6em;
+   border-radius: 7px;
+   border: 4px solid #000000;
+   margin-top: 0em;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding-top: 0.6em;
+   font-weight: bold;
+   font-size: 22px;
+}
+a{
+    color:#000000;
+    text-decoration: none;
+    border-radius:8px;
+    border: 4px solid #000000;
+    padding-left: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 6px;
+    background-color: #d90101;
+    font-family: cursive;
+}
+a:hover{
+    background-color: rgb(21, 38, 171);
+}
+h2{
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 29px;
+    margin-top:1.3em;
+    margin-bottom: 0em;
+    font-family: cursive;
+}
+.imagem1{
+height: 24em;
+width: 39em;
+margin-bottom: 1em;
+border: 8px solid #000000;
+border-radius: 9px;
+margin-left: 24.7em;
+margin-top: 2em;
+transform: translate(0px);
+animation: float 5s ease-in-out infinite;
+}
+.texto1{
+ flex-wrap: nowrap;
+ display: flex;
+ justify-content: left;
+ flex-direction: column;
+ font-size: 23px;
+ font-weight: bold;
+ font-family: cursive;
+ color: #000000;
+ margin-left: 1em;
+ margin-bottom: 1.2em;
+}
+.texto2{
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: cursive;
+    color: #000000;
+    margin-left: 1em;
+    margin-bottom: 1.2em;
+   }
+   .imagem2{
+    height: 24em;
+    width: 35em;
+    margin-bottom: 1em;
+    border: 8px solid #000000;
+    border-radius: 7px;
+    margin-left: 24.7em;
+    margin-top: 1em;
+    animation: float 5s ease-in-out infinite;
+    }
+    .texto3{
+        flex-wrap: nowrap;
+        display: flex;
+        justify-content: left;
+        flex-direction: row;
+        font-size: 23px;
+        font-weight: bold;
+        font-family: cursive;
+        color: #000000;
+        margin-left: 1em;
+        margin-bottom: 1.2em;
+       } 
+       .imagem3{
+        height: 24em;
+        width: 35em;
+        margin-bottom: 1em;
+        border: 8px solid #000000;
+        border-radius: 7px;
+        margin-left: 24.7em;
+        margin-top: 1em;
+        animation: float 5s ease-in-out infinite;
+        }
+        .imagem4{
+            height: 24em;
+            width: 35em;
+            margin-bottom: 1em;
+            border: 8px solid #000000;
+            border-radius: 7px;
+            margin-left: 24.7em;
+            margin-top: 1em;
+            animation: float 5s ease-in-out infinite;
+            }
+            .texto4{
+                flex-wrap: nowrap;
+                display: flex;
+                justify-content: left;
+                flex-direction: row;
+                font-size: 23px;
+                font-weight: bold;
+                font-family: cursive;
+                color: #000000;
+                margin-left: 1em;
+                margin-bottom: 1.2em;
+               }     
+               .imagem5{
+                height: 24em;
+                width: 35em;
+                margin-bottom: 1em;
+                border: 8px solid #000000;
+                border-radius: 7px;
+                margin-left: 24.7em;
+                margin-top: 0.8em;
+                animation: float 5s ease-in-out infinite;
+                }
+                .texto5{
+                    flex-wrap: nowrap;
+                    display: flex;
+                    justify-content: left;
+                    flex-direction: row;
+                    font-size: 23px;
+                    font-weight: bold;
+                    font-family: cursive;
+                    color: #000000;
+                    margin-left: 1em;
+                    margin-bottom: 1.2em;
+                   }     
+    @keyframes float {
+        0% {
+            transform: translateY(0px);
+        }
+        50%{
+            transform: translateY(-30px);
+        }
+        100%{
+            transform: translateY(0px);
+        }
+    }
+    
